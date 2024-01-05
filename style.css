@@ -1,0 +1,33 @@
+body {
+    background-image: url('XDD.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 1000px;
+    height: 1000px;
+    padding-top: 5px; /* Adjust as needed */
+    margin: 0;
+}
+
+.title {
+    color: black;
+}
+
+.buttonDesign {
+    margin: 10px;
+    border-radius: 50px;
+    border: none;
+    height: 50px;
+    width: 100px;
+    background-color: #3492eb;
+    cursor: pointer;
+}
+
+    .buttonDesign:hover {
+        background-color: #5aa8f2;
+
+
+
+
+    

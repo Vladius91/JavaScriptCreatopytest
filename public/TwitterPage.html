@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+   
+
+</head>
+
+
+<body>
+    <div class="pictureFrame"></div>
+    <div> <input type="text" id="textInput" placeholder="Type something..." class="textFrame"></div>
+
+    <nav>
+        <button class="buttonDesign">change Theme</button>
+    </nav>
+
+    <nav>
+        <button class="buttonDesign">Save</button>
+    </nav>
+
+    <nav>
+        <button class="buttonDesign" onclick="generateImage()">Start</button>
+    </nav>
+
+
+
+
+</body>
+<style>
+
+    .pictureFrame {
+        position: relative;
+        background-color: white;
+        border-radius: 50px;
+        border: 0px;
+        border-color: black;
+        width: 500px;
+        height: 500px;
+        right: -300px;
+        top: 50px;
+    }
+
+    .textFrame {
+        position: relative;
+        background-color: white;
+        border-radius: 10px;
+        border: 0px;
+        border-color: black;
+        width: 500px;
+        height: 50px;
+        right: 200px;
+        top: 100px;
+    }
+
+    .text-space {
+        position: relative;
+    }
+
+
+    body {
+        background-image: url('images/math.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: white;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .buttonDesign {
+        left: 120px;
+        position: relative;
+        top: -200px;
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: whitesmoke;
+        color: black;
+        border: 4px solid black;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+        border-radius: 10px;
+        margin: 30px;
+        width: 100px;
+        height: 50px;
+    }
+
+        .buttonDesign:hover {
+            background-color: black;
+            color: white;
+        }
+</style>
+</html>
